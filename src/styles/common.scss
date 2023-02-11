@@ -1,0 +1,20 @@
+@use "src/styles/_variables.scss" as v;
+
+.container--dark {
+  @include v.darkBackground;
+}
+
+.container--light {
+  @include v.lightBackground;
+}
+
+.box--dark {
+  margin: 10px;
+  padding: 10px;
+  @include v.darkBoxBackground;
+}
+
+.box--light {
+  padding: 10px;
+  @include v.lightBoxBackground;
+}
